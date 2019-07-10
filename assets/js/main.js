@@ -461,7 +461,7 @@ We may release future updates so it will overwrite this file. it's better and sa
     15: Countdown
     ====================================*/
     $('#countdown').countdown({
-        date: '08/16/2020 23:59:59'
+        date: '20/12/2019 23:59:59'
     });
 
 }(jQuery));

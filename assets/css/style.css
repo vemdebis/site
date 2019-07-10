@@ -261,7 +261,29 @@ body {
   color: #818181;
 }
 
+.pem{
+  padding-top: 20px;
+}
 
+.startup{
+  padding-top: 40px;
+}
+
+.subirabout {
+  margin-top: -280px;
+}
+
+.subirserviços{
+  margin-top: -100px;
+}
+
+.subirboaideia{
+ margin-top: -300px;
+}
+
+.textoinsp{
+  margin-top: -200px;
+}
 #particles-js {
   position: absolute;
   width: 100%;
@@ -587,7 +609,7 @@ body {
 /* ************************
    01.3: Color
    ********************* */
-.c1, .list-check li i, .theme-input-group button, .btn.btn-white span, .vdo-btn, .section-title h3, .page-title li, .appointment-modal .modal-dialog .modal-content .form-title, .header .header-main.style--one .main-menu #menu-button, .header .header-main.style--one .main-menu .nav li.current-menu-item > a, .header .header-main.style--one .main-menu .nav li.current-menu-parent > a, .header .header-main.style--one .main-menu .nav li ul li:hover > a, .offcanvas-wrapper .offcanvas-content .widget.widget_contact_info .single-info span, .single-blog-style--two .blog-content .post-meta li a:hover, .blog-details .post-meta li a:hover, .blog-details .post-tags li a:hover, .not-found-content p a, .coming-soon-content h1, #countdown li .single-countdown h4, #countdown li.seperator, .single-feature:hover .content h3, .single-process:hover .content h3, .about-nav-tab .nav-tabs .nav-link.active, .single-service .icon, .single-service:hover h4, .service-details .title, .pricing-navtab .nav-tabs .nav-link h4, .project-nav li.active, .single-team-member .team-info h4 {
+.c1, .list-check li i, .theme-input-group button, .btn.btn-white span, .vdo-btn, .section-title h3, .page-title li, .appointment-modal .modal-dialog .modal-content .form-title, .header .header-main.style--one .main-menu #menu-button, .header .header-main.style--one .main-menu .nav li.current-menu-item > a, .header .header-main.style--one .main-menu .nav li.current-menu-parent > a, .header .header-main.style--one .main-menu .nav li ul li:hover > a, .offcanvas-wrapper .offcanvas-content .widget.widget_contact_info .single-info span, .single-blog-style--two .blog-content .post-meta li a:hover, .blog-details .post-meta li a:hover, .blog-details .post-tags li a:hover, .not-found-content p a, .coming-soon-content h1,  #countdown li .single-countdown h4, #countdown li.seperator, .single-feature:hover .content h3, .single-process:hover .content h3, .about-nav-tab .nav-tabs .nav-link.active, .single-service .icon, .single-service:hover h4, .service-details .title, .pricing-navtab .nav-tabs .nav-link h4, .project-nav li.active, .single-team-member .team-info h4 {
   color: #8A1A75;
 }
 
@@ -695,7 +717,7 @@ body,
 .gradient-bg, .owl-carousel button.owl-dot.active, .bg-overlay:after, .bg-hover-gradient:after, .pagination li a:after,
 .pagination li span:after, .widget.widget_tag_cloud .tagcloud a:after, .single-service.style--two:after, .pricing-navtab .nav-tabs .nav-link:after, .theme-input-group input, .btn:before, .btn:after,
 .btn span:before,
-.btn span:after, .back-to-top, -thumb.offcanvas-wrapper::-webkit-scrollbar, .coming-soon-content h1 {
+.btn span:after, .back-to-top, -thumb.offcanvas-wrapper::-webkit-scrollbar, .coming-soon-content h1, .coming-soon-content h3 {
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #A1197B), color-stop(100%, #241C5A));
   background: -webkit-linear-gradient(180deg, rgba(161,25,123,1) 0%, rgba(36,28,90,1) 100%);
   background: -o-linear-gradient(180deg, rgba(161,25,123,1) 0%, rgba(36,28,90,1) 100%);
@@ -712,6 +734,17 @@ body,
 .text-white h5,
 .text-white h6 {
   color: #ffffff;
+}
+
+.text-gradient *,
+.text-gradient h1,
+.text-gradient h2,
+.text-gradient h3,
+.text-gradient h4,
+.text-gradient h5,
+.text-gradient h6 {
+  color: linear-gradient(180deg, rgba(161,25,123,1) 0%, rgba(36,28,90,1) 100%);
+
 }
 
 .titleabout{
@@ -731,6 +764,12 @@ body,
 .topcontato{
 	margin-top: -71px;
 }
+
+.baixartitulo{
+
+margin-bottom: -35px;
+}
+
 /* Section Bg */
 .section-pattern {
   background-size: contain;
@@ -2683,8 +2722,16 @@ blockquote {
    ********************* */
 .coming-soon-content h1 {
   font-size: 120px;
-  margin: 40px 0;
+  margin: 15px 0;
   text-transform: uppercase;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.coming-soon-content h3 {
+  font-size: 20px;
+  margin: 15px 0;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
